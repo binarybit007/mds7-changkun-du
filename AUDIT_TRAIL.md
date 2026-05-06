@@ -36,3 +36,13 @@
 
 * **Notes:** Transformed raw Spanish Beverage Excel data into CSV using Pandas, adding a 'Total Revenue' feature. Established a live web-connector pipeline between GitHub and Power BI. Demonstrated live data refresh by injecting extreme data points via Python and updating the repository. Exported final visualizations to PDF and backed up to AWS S3.
 
+
+
+## Week 5-6: Advanced Power BI & BigQuery Prep
+
+* **Date:** 2026-05-06
+
+* **Milestone:** Uploaded `Germany-Power-Bi-Dataset.csv` and `mds_Lecture_5_self_task - Power BI.pdf` to the `week-05-06-bigquery/PowerBI` directory.
+
+* **Notes:** Transformed raw German Beverage Excel data into CSV using Pandas, adding a 'Total Revenue' feature. Established a live web-connector pipeline between GitHub and Power BI. Demonstrated live data refresh by injecting extreme data points via Python and updating the repository. Exported final visualizations to PDF and backed up to AWS S3.
+
