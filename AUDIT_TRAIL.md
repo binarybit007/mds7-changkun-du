@@ -46,3 +46,21 @@
 
 * **Notes:** Transformed raw German Beverage Excel data into CSV using Pandas, adding a 'Total Revenue' feature. Established a live web-connector pipeline between GitHub and Power BI. Demonstrated live data refresh by injecting extreme data points via Python and updating the repository. Exported final visualizations to PDF and backed up to AWS S3.
 
+
+
+## Week 5-6: Deep Learning Classification & ETLS Deployment
+
+* **Date:** 2026-05-13
+
+* **Milestone:** Trained and deployed two Keras neural network models for Titanic survival classification.
+
+* **Artifacts:** Uploaded `model_3_layers.h5`, `model_5_layers.h5`, `README.md`, and `titanic_dl_pipeline.ipynb` to the `week-05-06-bigquery/deeplearning/` directory.
+
+* **AWS S3 Backup:** Saved the same deep learning artifacts to the `deeplearning/` folder in the `awsstoragecloud` S3 bucket.
+
+* **Model A:** Shallow neural network with 1 hidden ReLU layer and 1 Sigmoid output layer.
+
+* **Model B:** Deep neural network with 3 hidden ReLU layers and 1 Sigmoid output layer.
+
+* **Notes:** Extended the Titanic ETLS pipeline from classical machine learning to deep learning. Applied feature scaling for neural network convergence, trained both models with Adam optimizer and binary crossentropy loss, generated automated README documentation with model metrics, and completed dual-cloud deployment to AWS S3 and GitHub.
+
