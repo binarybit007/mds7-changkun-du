@@ -47,17 +47,3 @@
 * **Notes:** Transformed raw German Beverage Excel data into CSV using Pandas, adding a 'Total Revenue' feature. Established a live web-connector pipeline between GitHub and Power BI. Demonstrated live data refresh by injecting extreme data points via Python and updating the repository. Exported final visualizations to PDF and backed up to AWS S3.
 
 
-
-## Week 5-6 Deep Learning ETLS Deployment - 2026-05-13 10:34:54
-
-- Updated Titanic classification pipeline from classical machine learning to deep learning.
-- Trained Model A: shallow neural network with 1 hidden ReLU layer and 1 sigmoid output layer.
-- Trained Model B: deep neural network with 3 hidden ReLU layers and 1 sigmoid output layer.
-- Model A test accuracy: 0.4190
-- Model B test accuracy: 0.7263
-- Saved artifacts as Keras HDF5 files:
-  - model_3_layers.h5
-  - model_5_layers.h5
-- Generated README.md automatiically using Python File I/O.
-- Deployed artifacts to AWS S3 bucket `anshulmds1` under `deeplearning/`.
-- Deployed artifacts to GitHub directory `week-05-06-bigquery/deeplearning`.
