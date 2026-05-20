@@ -64,3 +64,5 @@
 
 * **Notes:** Extended the Titanic ETLS pipeline from classical machine learning to deep learning. Applied feature scaling for neural network convergence, trained both models with Adam optimizer and binary crossentropy loss, generated automated README documentation with model metrics, and completed dual-cloud deployment to AWS S3 and GitHub.
 
+
+* **2026-05-20 - Computer Vision:** Trained CIFAR-10 CNN (`cifar_custom_cnn.h5`) and deployed to S3/GitHub.
