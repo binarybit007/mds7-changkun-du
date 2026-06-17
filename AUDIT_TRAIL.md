@@ -69,25 +69,25 @@
 
 
 
-Week 10-12: Green AI Experiment
+## Week 10-12: Green AI Experiment
 
 Date: 2026-06-17
 
-Milestone: Completed NLP model training with carbon footprint tracking.
+* **Milestone:** Completed NLP model training with carbon footprint tracking.
 
-Artifacts:
+* **Artifacts:**
 Uploaded green_ai_experiment.ipynb, emissions.csv, and README.md
 to the week-10-12-ai directory.
 
-Dataset:
+* **Dataset:**
 Used Scikit-learn 20 Newsgroups dataset for text classification.
 
-Model:
+* **Model:**
 Built a machine learning pipeline using:
 - TF-IDF Vectorizer
 - Random Forest Classifier
 
-Notes:
+* **Notes:**
 Implemented an AI experiment to measure environmental impact.
 Used CodeCarbon EmissionsTracker during model training to record CO2 emissions.
 Evaluated model accuracy and compared performance with computational cost.
