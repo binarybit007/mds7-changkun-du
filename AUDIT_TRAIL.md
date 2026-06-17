@@ -66,3 +66,10 @@
 
 
 * **2026-05-20 - Computer Vision:** Trained CIFAR-10 CNN (`cifar_custom_cnn.h5`) and deployed to S3/GitHub.
+
+* **2026-06-17 - Green AI Experiment:**
+  Created NLP text classification pipeline using TF-IDF and Random Forest.
+  Dataset: 20 Newsgroups dataset.
+  Added CodeCarbon tracking to measure CO2 emissions.
+  Uploaded emissions.csv with experiment results.
+
