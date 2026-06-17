@@ -67,3 +67,28 @@
 
 * **2026-05-20 - Computer Vision:** Trained CIFAR-10 CNN (`cifar_custom_cnn.h5`) and deployed to S3/GitHub.
 
+
+
+Week 10-12: Green AI Experiment
+
+Date: 2026-06-17
+
+Milestone: Completed NLP model training with carbon footprint tracking.
+
+Artifacts:
+Uploaded green_ai_experiment.ipynb, emissions.csv, and README.md
+to the week-10-12-ai directory.
+
+Dataset:
+Used Scikit-learn 20 Newsgroups dataset for text classification.
+
+Model:
+Built a machine learning pipeline using:
+- TF-IDF Vectorizer
+- Random Forest Classifier
+
+Notes:
+Implemented an AI experiment to measure environmental impact.
+Used CodeCarbon EmissionsTracker during model training to record CO2 emissions.
+Evaluated model accuracy and compared performance with computational cost.
+
