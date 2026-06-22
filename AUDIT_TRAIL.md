@@ -92,3 +92,31 @@ Implemented an AI experiment to measure environmental impact.
 Used CodeCarbon EmissionsTracker during model training to record CO2 emissions.
 Evaluated model accuracy and compared performance with computational cost.
 
+
+
+## Week 10-12: Async Lab - Green AI Trade-Off
+
+* **Date:** 2026-06-22
+
+* **Milestone:** Completed Deep MLP carbon emission experiment comparing dataset size and training duration.
+
+* **Artifacts:** Uploaded `emissions.csv`, `tradeoff_plot.png`, and `README.md` to the `week-10-12-async-lab` directory.
+
+* **Dataset:** Used Fashion-MNIST dataset from TensorFlow/Keras for image classification.
+
+* **Model:**
+Built a Deep Multi-Layer Perceptron (MLP) model with:
+- Flatten layer
+- 5 Dense hidden layers
+- Softmax output classification layer
+
+* **Experiments:**
+- Experiment A: 50% data, 50 epochs
+- Experiment B: 50% data, 100 epochs
+- Experiment C: 100% data, 50 epochs
+- Experiment D: 100% data, 100 epochs
+
+* **Notes:**
+Used CodeCarbon EmissionsTracker to measure CO2 emissions during training.
+Compared accuracy vs carbon footprint to evaluate trade-offs between performance and sustainability.
+Identified best configuration based on balance of accuracy and emissions rather than accuracy alone.
