@@ -1,0 +1,6 @@
+model_key,model_name,model_type,accuracy_pct,f1_score_pct,precision_pct,recall_pct,training_time_sec,inference_latency_ms_per_1k,energy_kwh,emissions_g_co2,green_efficiency_score
+1_TFIDF_LogisticRegression,TF-IDF + Logistic Regression,Linear Baseline,75.35,74.66,74.51,75.35,0.0758,0.283,1.05e-06,0.0004,187390.26
+2_TFIDF_RandomForest,TF-IDF + Random Forest,Ensemble,67.23,65.24,68.1,67.23,0.2027,6.683,1e-06,0.00038,175249.66
+3_Lightweight_MLP,Lightweight MLP (1x64),Neural Network,73.8,73.94,74.22,73.8,1.0523,0.962,3.24e-06,0.00124,59668.19
+4_Deep_MLP,Deep MLP (3x256),Deep Neural Network,74.39,73.89,73.76,74.39,2.4344,7.405,1.697e-05,0.00646,11506.81
+5_Green_Optimized_MLP,"Green-Optimized MLP (1x32, Early Stopping)",Green AI Efficient,75.13,74.39,74.31,75.13,0.2039,0.657,1.07e-06,0.00041,183817.56

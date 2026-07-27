@@ -1,0 +1,72 @@
+[
+    {
+        "model_key": "1_TFIDF_LogisticRegression",
+        "model_name": "TF-IDF + Logistic Regression",
+        "model_type": "Linear Baseline",
+        "accuracy_pct": 75.35,
+        "f1_score_pct": 74.66,
+        "precision_pct": 74.51,
+        "recall_pct": 75.35,
+        "training_time_sec": 0.0758,
+        "inference_latency_ms_per_1k": 0.283,
+        "energy_kwh": 1.05e-06,
+        "emissions_g_co2": 0.0004,
+        "green_efficiency_score": 187390.26
+    },
+    {
+        "model_key": "2_TFIDF_RandomForest",
+        "model_name": "TF-IDF + Random Forest",
+        "model_type": "Ensemble",
+        "accuracy_pct": 67.23,
+        "f1_score_pct": 65.24,
+        "precision_pct": 68.1,
+        "recall_pct": 67.23,
+        "training_time_sec": 0.2027,
+        "inference_latency_ms_per_1k": 6.683,
+        "energy_kwh": 1e-06,
+        "emissions_g_co2": 0.00038,
+        "green_efficiency_score": 175249.66
+    },
+    {
+        "model_key": "3_Lightweight_MLP",
+        "model_name": "Lightweight MLP (1x64)",
+        "model_type": "Neural Network",
+        "accuracy_pct": 73.8,
+        "f1_score_pct": 73.94,
+        "precision_pct": 74.22,
+        "recall_pct": 73.8,
+        "training_time_sec": 1.0523,
+        "inference_latency_ms_per_1k": 0.962,
+        "energy_kwh": 3.24e-06,
+        "emissions_g_co2": 0.00124,
+        "green_efficiency_score": 59668.19
+    },
+    {
+        "model_key": "4_Deep_MLP",
+        "model_name": "Deep MLP (3x256)",
+        "model_type": "Deep Neural Network",
+        "accuracy_pct": 74.39,
+        "f1_score_pct": 73.89,
+        "precision_pct": 73.76,
+        "recall_pct": 74.39,
+        "training_time_sec": 2.4344,
+        "inference_latency_ms_per_1k": 7.405,
+        "energy_kwh": 1.697e-05,
+        "emissions_g_co2": 0.00646,
+        "green_efficiency_score": 11506.81
+    },
+    {
+        "model_key": "5_Green_Optimized_MLP",
+        "model_name": "Green-Optimized MLP (1x32, Early Stopping)",
+        "model_type": "Green AI Efficient",
+        "accuracy_pct": 75.13,
+        "f1_score_pct": 74.39,
+        "precision_pct": 74.31,
+        "recall_pct": 75.13,
+        "training_time_sec": 0.2039,
+        "inference_latency_ms_per_1k": 0.657,
+        "energy_kwh": 1.07e-06,
+        "emissions_g_co2": 0.00041,
+        "green_efficiency_score": 183817.56
+    }
+]
